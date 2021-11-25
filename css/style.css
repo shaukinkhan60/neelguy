@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 19px 0;
+}
+
+.whats-call-button {
+  padding: 17px 0px;
+}
+
+.whats-call-button button {
+  border-radius: 50px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #333;
+  outline: none;
+  padding: 9px 15px;
+  margin-left: 20px;
+  letter-spacing: 0.5px;
+}
+
+footer .whats-call-button button {
+  border-radius: 50px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #333;
+  outline: none;
+  padding: 9px 15px;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 12px;
+    letter-spacing: 0;
+}
+
+.cont-wrapper p {
+	font-size: 15px;
+    color: #444;
+}
+
+.whats-call-button .button1 {
+  background: #bffccf;
+  border: 1px solid #bffccf;
+}
+
+.whats-call-button .button2 {
+  background: #ffe5d3;
+  border: 1px solid #ffe5d3;
+}
+
+.whats-call-button button img {
+  margin-right: 7px;
+  width: 21px;
+  vertical-align: bottom;
+}
+
+img.logo-top {
+  width: auto;
+  margin-top: 7px;
+}
+
+.banner-section h1 {
+  font-size: 43px;
+  font-weight: 600;
+  color: #111;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 59px;
+}
+
+.banner-section h1:after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  width: 80px;
+  height: 11px;
+  background: #ff6600;
+}
+
+.banner-section p {
+  margin-top: 70px;
+  font-size: 17px;
+  color: #000;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.banner-section button {
+  background-color: #f60;
+  color: #fffaf6;
+  border: 1px solid #f60;
+  padding: 16px 31px;
+  border-radius: 100px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-top: 12px;
+  box-shadow: 0 0 9px #eee;
+}
+
+.banner-section img {
+  width: 100%;
+}
+
+.banner-padd {
+  padding-top: 80px;
+}
+
+.cat-box {
+  display: flex;
+  padding: 35px 0;
+}
+
+.cont-wrapper {
+  padding: 0 0 0 31px;
+}
+
+.cont-wrapper h4 {
+  font-size: 21px;
+  font-weight: 400;
+  color: #000;
+}
+
+.img-wrapper img {
+  width: 75px;
+}
+
+.categories h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 100px;
+  color: #333;
+}
+
+.categories h3:after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 11px;
+  background: #ff6600;
+}
+
+.categories {
+  padding: 75px 0 27px 0;
+}
+
+.stock {
+  background-color: #fff5ef;
+  padding: 62px 0 45px 0;
+}
+
+.stock img {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.stock li {
+  position: relative;
+  padding: 25px 47px;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.stock li:before {
+  position: absolute;
+  content: "•";
+  color: #ff6600;
+  left: 0;
+  top: -8px;
+  font-size: 63px;
+}
+
+.stock li span {
+  font-size: 16px;
+  color: #666;
+  margin-top: -10px;
+  display: block;
+  margin-left: 2px;
+}
+
+.stock h4 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 1px;
+  margin-bottom: 85px;
+  position: relative;
+}
+
+.stock h4:after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  width: 80px;
+  height: 11px;
+  background: #ff6600;
+}
+
+.brands {
+  padding: 75px 0;
+}
+
+.brands img {
+  margin: 27px 21px;
+  width: 140px;
+}
+
+.brands h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 100px;
+  color: #333;
+}
+
+.brands h3:after {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 11px;
+  background: #ff6600;
+}
+
+h5.guaranteed-text {
+  color: #999;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 75px 0;
+}
+
+footer .logo-bottom {
+  width: 260px;
+  margin-bottom: 21px;
+}
+
+footer p {
+  color: #526875;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin: 0;
+  margin-top: 12px;
+}
+
+footer .footer-content h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+}
+
+footer .footer-content h1 strong {
+  color: #ff6600;
+}
+
+footer .footer-content p {
+  margin-top: 27px;
+  font-size: 21px;
+  color: #ffffffb8;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 59px;
+}
+
+footer .footer-content button {
+  background-color: #f60;
+  color: #fffaf6;
+  border: 1px solid #f60;
+  padding: 18px 43px;
+  border-radius: 100px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 12px;
+  box-shadow: 0 0 9px #00000005;
+  outline: none;
+}
+
+.br {
+    display: contents;
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+img.logo-top {
+    width: 100%;
+    margin-top: 7px;
+}
+.whats-call-button {
+    padding: 17px 0px;
+    display: flex;
+}
+.whats-call-button button {
+    border-radius: 50px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #333;
+    outline: none;
+    padding: 9px 11px;
+    margin-left: 9px;
+    letter-spacing: 0;
+}
+
+.whats-call-button button img {
+    margin-right: 5px;
+    width: 16px;
+    vertical-align: sub;
+}
+}
+
+@media screen and (max-width: 575px) {
+  img.logo-top {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .whats-call-button {
+    width: fit-content;
+    margin: auto;
+  }
+  .banner-padd {
+    padding-top: 7px;
+  }
+  .banner-section h1 {
+    font-size: 27px;
+	line-height: 35px;
+	text-align: center;
+	max-width: 380px;
+    margin: auto;
+  }
+  .banner-section h1:after {
+    content: "";
+    position: absolute;
+    bottom: -21px;
+        left: 50%;
+    transform: translateX(-50%);
+    width: 59px;
+    height: 6px;
+  }
+  .banner-section p {
+    margin-top: 41px;
+	text-align: center;
+  }
+
+  .banner-section button {
+    padding: 12px 19px;
+    font-size: 14px;
+    margin-top: 1px;
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .categories h3 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 72px;
+  }
+  .categories h3:after {
+    bottom: -26px;
+    width: 80px;
+    height: 6px;
+  }
+  .cat-box {
+    display: flex;
+    padding: 14px 0;
+    flex-wrap: wrap;
+}
+
+  .cat-box .img-wrapper {
+	width: fit-content;
+    margin: auto;
+    margin-bottom: 19px;
+}
+
+.cont-wrapper p, h4 {
+	text-align: center;
+}
+  .cont-wrapper h4 {
+    font-size: 18px;
+  }
+  .cont-wrapper p {
+    font-size: 14px;
+  }
+  .stock h4 {
+    font-size: 29px;
+  }
+  .stock h4:after {
+    bottom: -21px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 59px;
+    height: 6px;
+  }
+  .stock h4 {
+    font-size: 27px;
+    margin-bottom: 37px;
+  }
+  .brands h3 {
+    text-align: center;
+    font-size: 27px;
+  }
+  .brands h3:after {
+    bottom: -21px;
+    width: 59px;
+    height: 6px;
+  }
+  .brands {
+    padding: 37px 0;
+  }
+  .stock img {
+    top: 0;
+    transform: none;
+    margin-bottom: 39px;
+  }
+
+  .footer-content {
+    margin-top: 34px;
+  }
+  footer .footer-content h1 {
+    font-size: 27px;
+	text-align: center;
+  }
+
+footer .footer-content button {
+    padding: 15px 19px;
+    font-size: 13px;
+    margin-top: 12px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+footer .footer-content p {
+    margin-top: 23px;
+    margin-bottom: 17px;
+	text-align: center;
+}
+footer {
+    padding: 37px 0;
+}
+
+.stock h4 {
+	text-align: center;
+}
+
+footer .logo-bottom {
+    width: 260px;
+    margin-bottom: 21px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer p {
+	text-align: center;
+}
+
+.br {
+	display: block;
+}
+
+.cont-wrapper {
+    padding: 0 0 0 31px;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 399px) {
+
+.whats-call-button {
+    padding: 17px 0px;
+    display: flex;
+}
+.whats-call-button button {
+    border-radius: 50px;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #333;
+    outline: none;
+    padding: 9px 11px;
+    margin-left: 9px;
+    letter-spacing: 0;
+}
+.whats-call-button button img {
+    margin-right: 5px;
+    width: 16px;
+    vertical-align: sub;
+}
+}
